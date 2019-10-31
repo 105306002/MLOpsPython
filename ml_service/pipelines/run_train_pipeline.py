@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 def main():
     load_dotenv()
-    workspace_name = "JenMLOps-AML-RG"
+    workspace_name = "JenMLOps-AML-WS"
     resource_group = os.environ.get("BASE_NAME")+"-AML-RG"
     subscription_id = os.environ.get("SUBSCRIPTION_ID")
     tenant_id = os.environ.get("TENANT_ID")
